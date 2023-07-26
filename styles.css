@@ -1,0 +1,84 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background: url(./background.jpg);
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height:100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading{
+    font-weight: bold;
+    padding: 0px;
+    color:rgb(196, 21, 208);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: sans-serif;
+}
+.menu a{
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: .4s;
+
+}
+.menu a:hover{
+    color:rgb(132, 205, 92);
+}
+.login{
+    background-color: aliceblue;
+    color: black;
+}
+button{
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(0, 94, 255);
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    margin-top: 5%;
+    color:rgba(38, 0, 255, 0.909);
+    text-shadow: 5px 5px 5px rgb(0, 0, 255);
+}
+h2{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    text-align: center;
+    top:50%;
+    left:50%;
+    color:white;
+}
+h3{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif,cursive;
+}
+.register{
+    text-align: center;
+    color: white;
+    background-color: indianred;
+    letter-spacing: 2px;
+}
